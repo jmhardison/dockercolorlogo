@@ -1,0 +1,29 @@
+#!/bin/sh
+BLACK=$(tput setaf 0)
+RED=$(tput setaf 1)
+GREEN=$(tput setaf 2)
+YELLOW=$(tput setaf 3)
+LIME_YELLOW=$(tput setaf 190)
+POWDER_BLUE=$(tput setaf 153)
+BLUE=$(tput setaf 4)
+MAGENTA=$(tput setaf 5)
+CYAN=$(tput setaf 6)
+NORMAL=$(tput sgr0)
+BRIGHT=$(tput bold)
+WHITE=$(tput setaf 7)
+
+printf "                   ${RED} ##       ${NORMAL} .         \n"
+printf "             ${RED} ## ## ##      ${NORMAL} ==         \n"
+printf "           ${RED}## ## ## ##      ${NORMAL}===         \n"
+printf "       /\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\\\___/ ===       \n"
+printf "  ${BLUE}~~~ ${NORMAL}{${BLUE}~~ ~~~~ ~~~ ~~~~ ~~ ~ ${NORMAL}/  ===- ${BLUE}~~~${NORMAL}\n"
+printf "       \\\______${WHITE} o ${NORMAL}         __/           \n"
+printf "         \\\    \\\        __/            \n"
+printf "          \\\____\\\______/               \n"
+printf "${POWDER_BLUE}                                          \n"
+printf "          |          |                    \n"
+printf "       __ |  __   __ | _  __   _          \n"
+printf "      /  \\\| /  \\\ /   |/  / _\\\ |     \n"
+printf "      \\\__/| \\\__/ \\\__ |\\\_ \\\__  | \n"
+printf " ${NORMAL}                                         \n"
+printf "===========================================\n"
